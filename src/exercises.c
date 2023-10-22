@@ -31,15 +31,15 @@ int main(int argc, char **argv) {
   printf("\n");
 
   //2. Rewrite the given while loop as an equivalent for loop
-  int k = 3;
-  while(k > -4) {
-    printf("%d ", k);
-    k--;
+   for(int k = 3; k > -3 ; k--){
+    printf("%d",k);
   }
   printf("\n");
+  
 
   //3. Print numbers 1 thru n separated by a comma except for
   //   the last one; example: 1, 2, 3, 4, 5
+
   for(int i = 1; i <= n; i++){
     printf("%d",i);
     if(i!=n){
@@ -77,6 +77,7 @@ int main(int argc, char **argv) {
   //6. Compute the summation of squares of numbers 1 thru n
   //   and print the result; example: 1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55
       int sum1=0,k=1;
+    
   do{
   
     printf("%d^2",k*k);
